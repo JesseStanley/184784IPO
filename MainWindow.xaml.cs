@@ -31,11 +31,12 @@ namespace _184784IPO
             double width;
             double area;
 
-            double.TryParse(txtlength.Text, out length);
-            double.TryParse(txtwidth.Text, out width);
+            double.TryParse(txtLength.Text, out length);
+            double.TryParse(txtWidth.Text, out width);
 
             area = length * width;
-            lblOutput.Content = "The area is: " + area.ToString("#.00");
+
+            lblOutput.Content = "The area is: " + area.ToString("#0.00");
         }
     }
 }
