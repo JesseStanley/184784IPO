@@ -1,4 +1,8 @@
-﻿using System;
+/*Jesse Stanley
+ * Febuary 8, 2018
+ * My IPO project
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
